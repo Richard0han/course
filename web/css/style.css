@@ -1,0 +1,192 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background-image: url(../images/back.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+}
+
+.w {
+    width: 1000px;
+    margin: auto;
+}
+
+body{
+    /* color: #f3f5f7; */
+    color: #1c1f21;
+}
+
+li {
+    list-style: none;
+}
+
+.header{
+    height: 42px;
+    margin: 30px auto;
+}
+
+.logo {
+    float: left;
+    width: 195px;
+    height: 42px;
+}
+
+.nav {
+    float: left;
+    margin-left: 60px;
+}
+
+.nav ul li{
+    float: left;
+    margin: 0 15px;
+}
+
+.nav ul li a {
+    display: block;
+    height: 42px;
+    padding: 0 10px;
+    line-height: 42px;
+    font-size: 18px;
+    color: #050505;
+    text-decoration: none;
+}
+
+.nav ul li a:hover {
+    border-bottom: 2px solid #aa2b38;
+    color: #aa2b38;
+}
+
+.master-container {
+    background-color: rgba(255, 255, 255, 0.6);
+    box-shadow: 0 4px 8px 0 rgb(170, 170, 169);
+    border-radius: 8px;
+    margin: 0 auto;
+    width: 75%;
+    height: auto;
+    padding: 50px 60px;
+}
+
+.master-introduce {
+    color: black;
+}
+
+.master-syllabus {
+    color: black;
+}
+
+.master-data a{
+    color: black;
+    text-decoration: none;
+}
+
+.master-communicate {
+    background-color: rgba(59, 62, 69, 0.7);
+    color: white;
+    font-size: 130%;
+    position: relative;
+    transform: translateX(-50%);
+    left: 50%;
+
+    width: 60%;
+    height: calc((100% - 160px) * 0.7);
+    min-height: 200px;
+
+    padding: 15px 60px;
+
+    margin-top: 80px;
+
+    overflow: scroll;
+}
+
+.master-input {
+    background-color: rgba(59, 62, 69, 0.7);
+    color: white;
+    font-size: 130%;
+    position: relative;
+    transform: translateX(-50%);
+    left: 50%;
+
+    width: 60%;
+    height: calc((100% - 160px) * 0.3);
+    min-height: 128px;
+
+    padding: 10px 60px;
+
+    margin-top: 20px;
+}
+
+.communicate-panel {
+    padding: 10px 20px;
+    width: calc(100% - 40px);
+    margin: 10px 0;
+}
+
+.communicate-name {
+    font-weight: bold;
+}
+
+.communicate-content {
+    font-size: 90%;
+}
+
+.communicate-time {
+    font-size: 70%;
+}
+
+.communicate-reply {
+    font-size: 80%;
+    color: rgba(59, 62, 69, 0.7);
+    text-decoration: underline white;
+}
+
+.communicate-input {
+    background-color: rgba(59, 62, 69, 0.7);
+    color: white;
+    font-size: 130%;
+    position: relative;
+    transform: translateX(-50%);
+    left: 50%;
+
+    width: 60%;
+    height: calc((100% - 160px) * 0.3);
+    min-height: 128px;
+
+    padding: 10px 60px;
+
+    margin-top: 20px;
+}
+
+.form-div {
+    width: calc(100% - 40px);
+    margin: 10px 0;
+}
+
+.form-element {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.form-middle {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.form-label {
+    width: 50px;
+}
+
+.form-textarea {
+    width: calc(100% - 60px);
+    height: calc(100% - 100px);
+    min-height: 40px;
+    resize: none;
+}
+
+.form-button {
+    position: relative;
+    left: 50%;
+}
